@@ -3,7 +3,7 @@ SkillCraft Technology Task 03 || Space Quiz
 
 # 🚀 Space Explorer Quiz
 
-A modern, interactive space-themed quiz application built with vanilla JavaScript, featuring stunning visual effects and professional user experience design.
+A modern, interactive space-themed quiz application built with  JavaScript, featuring stunning visual effects and professional user experience design.
 
 ## ✨ Features
 
