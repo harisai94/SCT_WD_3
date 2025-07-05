@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Space- Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+    
+    <div class="quiz-container">
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-rocket"></i>
+                <h1>Space Explorer Quiz</h1>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <span class="progress-text" id="progressText">1 / 10</span>
+            </div>
+        </div>
+        
+        <div id="quiz">
+           
+        </div>
+        
+        <div id="score" class="hidden">
+            
+        </div>
+        
+        <div class="footer">
+            <div class="score-display">
+                <span class="current-score" id="currentScore">0</span>
+                <span class="total-score">/ 10</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="quiz.js"></script>
+</body>
+</html> 
